@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAybiryKEudm1FXLNtSL7O2GoTNZAtBiSk",
-  authDomain: "couponharvest-d0069.firebaseapp.com",
-  projectId: "couponharvest-d0069",
-  storageBucket: "couponharvest-d0069.firebasestorage.app",
-  messagingSenderId: "241406331263",
-  appId: "1:241406331263:web:2c3bd1193c038ae410f24a"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
