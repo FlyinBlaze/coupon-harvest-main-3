@@ -1,0 +1,47 @@
+:root {
+  /* Primary Palette */
+  --color-primary-purple: #4A1D96;
+  --color-primary-deep-purple: #2E0D5E;
+
+  /* Secondary Palette */
+  --color-secondary-green: #4ECDC4;
+  --color-secondary-teal: #00A3A3;
+  --color-secondary-blue: #007AFF;
+
+  /* Accent Palette */
+  --color-accent-pink: #FF6B6B;
+  --color-accent-yellow: #FFD166;
+  --color-accent-light-purple: #E6DFF6;
+
+  /* Neutral Palette - Dark Mode */
+  --color-neutral-white: #1A1A1A;
+  --color-neutral-almost-white: #2A2A2A;
+  --color-neutral-light-gray: #3A3A3A;
+  --color-neutral-medium-gray: #4A4A4A;
+  --color-neutral-dark-gray: #8A8A8A;
+  --color-neutral-text-black: #FFFFFF;
+  --color-neutral-black: #000000;
+
+  /* System Palette */
+  --color-system-success: #28A745;
+  --color-system-warning: #FFC107;
+  --color-system-error: #DC3545;
+
+  /* Typography */
+  --font-family-base: System-UI, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-size-h1: 28px;
+  --font-size-h2: 22px;
+  --font-size-h3: 18px;
+  --font-size-body: 16px;
+  --font-size-body-small: 14px;
+  --font-size-label: 12px;
+  --font-weight-bold: 700;
+  --font-weight-semi-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* Shadows */
+  --shadow-subtle: 0 2px 4px rgba(0,0,0,0.3);
+  --shadow-standard: 0 4px 8px rgba(0,0,0,0.4);
+  --shadow-deep: 0 8px 16px rgba(0,0,0,0.4);
+} 

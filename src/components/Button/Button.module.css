@@ -1,0 +1,57 @@
+.button {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-body);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  outline: none;
+}
+
+.primary {
+  background: #7c3aed; /* Nice violet */
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: var(--font-weight-bold);
+  box-shadow: var(--shadow-subtle);
+}
+.primary:hover {
+  background: #5b21b6; /* Deeper violet on hover */
+}
+
+.secondary {
+  background: var(--color-neutral-light-gray);
+  color: var(--color-neutral-text-black);
+  border: 1px solid var(--color-neutral-medium-gray);
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-weight: var(--font-weight-medium);
+}
+.secondary:hover {
+  background: var(--color-neutral-medium-gray);
+  border-color: #CFCFCF;
+}
+
+.tertiary {
+  background: transparent;
+  color: var(--color-neutral-white);
+  border: 1px solid var(--color-neutral-white);
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: var(--font-weight-semi-bold);
+}
+.tertiary:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.cashBack {
+  background: var(--color-neutral-white);
+  color: var(--color-secondary-teal);
+  border: 1px solid var(--color-neutral-medium-gray);
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-weight: var(--font-weight-medium);
+}
+.cashBack:hover {
+  background: var(--color-neutral-light-gray);
+} 

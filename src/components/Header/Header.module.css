@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-neutral-white);
+  border-bottom: 1px solid var(--color-neutral-medium-gray);
+  padding: 0 32px;
+  height: 64px;
+  font-family: var(--font-family-base);
+}
+
+.logo a {
+  color: var(--color-neutral-text-black);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-h2);
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  color: var(--color-neutral-text-black);
+  font-weight: var(--font-weight-semi-bold);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: var(--color-primary-purple);
+}
+
+.searchBarContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0 24px;
+}
+
+.searchBar {
+  width: 320px;
+  background: var(--color-neutral-almost-white);
+  border: 1px solid var(--color-neutral-almost-white);
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: var(--font-size-body);
+  color: var(--color-neutral-dark-gray);
+  outline: none;
+  transition: border 0.2s, background 0.2s;
+}
+.searchBar:focus {
+  border-color: var(--color-primary-purple);
+  background: var(--color-neutral-white);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.adminButton {
+  background: var(--color-primary-purple);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.adminButton:hover {
+  background: var(--color-primary-deep-purple);
+} 

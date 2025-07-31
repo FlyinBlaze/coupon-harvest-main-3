@@ -1,0 +1,23 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-body-small);
+  color: var(--color-neutral-dark-gray);
+  gap: 4px;
+  padding: 8px 0;
+}
+
+.crumb a {
+  color: var(--color-primary-purple);
+  text-decoration: underline;
+  font-weight: var(--font-weight-medium);
+  transition: color 0.2s;
+}
+.crumb a:hover {
+  color: var(--color-primary-deep-purple);
+}
+
+.separator {
+  margin: 0 6px;
+  color: var(--color-neutral-dark-gray);
+} 
